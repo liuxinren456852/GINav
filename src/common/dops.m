@@ -2,7 +2,6 @@ function dop = dops(azel)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %compute diluion of precision
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 az=azel(:,1); el=azel(:,2);
 H=[cos(el).*sin(az),cos(el).*cos(az),sin(el),ones(size(az,1),1)];
 Q=(H'*H)^-1;

@@ -1,6 +1,5 @@
 function ind=selcomsat(obsr,obsb,opt,zdb)
 
-
 k=0;
 nr=size(obsr,1);
 nb=size(obsb,1);

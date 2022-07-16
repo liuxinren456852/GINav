@@ -1,4 +1,4 @@
-function stat=satexclude(sat,var,svh,opt)
+function stat=satexclude(sat,var,svh,opt)%#ok
 
 global glc;
 [sys,~]=satsys(sat);

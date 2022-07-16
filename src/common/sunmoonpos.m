@@ -1,6 +1,5 @@
 function [rsun,rmoon,gmst]=sunmoonpos(tutc,erpv)
 
-
 tut=timeadd(tutc,erpv(3));
 
 %calculate sun and moon position in ECI

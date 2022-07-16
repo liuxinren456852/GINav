@@ -1,7 +1,5 @@
 function corr=tropmodel(el,pos,humi)
 
-%%%%%% compute troposphere delay using saastamoninen model %%%%%%%%%%%
-
 temp0=15.0; %temparature at sea level
 
 if (pos(3)<-100 || pos(3)>5000 || el<=0) 

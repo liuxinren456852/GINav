@@ -1,5 +1,4 @@
 function [geph,stat]=decode_geph(ver,sat,toc,data)
-
 global glc gls
 
 geph=gls.geph;

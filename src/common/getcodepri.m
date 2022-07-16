@@ -1,4 +1,4 @@
-function pri=getcodepri(sys,code,opt)
+function pri=getcodepri(sys,code,opt) %#ok
 
 global glc
 

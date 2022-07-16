@@ -3,6 +3,7 @@ function nav=adjnav(nav,opt)
 %adjust the wavelength of priority frequencies for BDS2 and BDS3
 %eph and geph struct to eph and geph matrix
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 global glc
 
 %adjust eph

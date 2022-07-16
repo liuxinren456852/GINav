@@ -1,5 +1,4 @@
 function [eph,stat]=decode_eph(ver,sat,toc,data) %#ok
-
 global glc gls
 eph=gls.eph; stat=1;
 sys=satsys(sat);

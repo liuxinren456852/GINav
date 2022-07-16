@@ -3,6 +3,7 @@ function obs=adjobs(obs,opt)
 %adjust priority frequencies for BDS2 and BDS3
 %convert the obs.data struct to obs.data matrix
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 global glc
 data0=zeros(obs.n,3+6*glc.NFREQ);
 

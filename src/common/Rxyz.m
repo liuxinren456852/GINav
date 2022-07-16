@@ -1,5 +1,5 @@
 function R=Rxyz(t,flag)
-%Note that the transformation is the opposite of RTKlib
+
 if flag==1
     R=[1       0         0;
        0     cos(t)   -sin(t);

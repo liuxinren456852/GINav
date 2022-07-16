@@ -1,5 +1,4 @@
 function nav=decode_sp3b(nav,headinfo,fid)
-
 global glc gls
 peph=gls.peph; 
 NMAX=10000; nav.peph=repmat(gls.peph,NMAX,1);
